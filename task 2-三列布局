@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+*{margin:0;padding:0}
+div{border:1px solid #999;}
+.leftS,.right div{width:80px;height:80px;padding:20px;background-color:#eee;text-align:center;}
+.left,.right,.center{background-color:white;}
+.big{width:90%;background-color:#eee;margin:20px auto;padding:20px;overflow:hidden;}
+.left{width:200px;padding:20px;float:left;}
+.leftS{font-size:0.9em;float:left;}
+.right div{margin:20px 0 }
+.center{padding:20px;position:relative;margin:0 180px 0 260px;}
+.right{float:right;width:120px;padding:0 20px;}
+</style>
+<div class="big">
+	<div class="left">
+		<div class="leftS">
+		团队logo<br/>80*80
+		</div>&nbsp;&nbsp;团队名称
+	</div>
+	
+	
+	<div class="right">
+		<div>个人logo<br/>80*80</div>
+		<div>个人logo<br/>80*80</div>
+		<div>个人logo<br/>80*80</div>
+		<div>个人logo<br/>80*80</div>
+	</div>
+	
+	<div class="center">
+		<p>大发生的发生大法师打发事大家发货价阿婆染发剂哦啊挨饿安排无二凤凰大街爱情片坡爱迪生免费
+		啊回复看见爱上电话费咖啡化考试了发卡
+		案件发可莱丝电话费啊阿什顿发乐山大佛卡as
+		爱迪生了房间啊卡水电费金坷垃</p>
+		<p>dasfdfhs大护法忽视的覅偶水电费哈似懂非懂开发好搜地方水电费hi敌法东方我哦啊是电话费iOS大黄蜂哦</p>
+		<p>大护法好歹是发UI噢省电和iOS的发挥ISO好地方iOS动画片小数点皮肤很大净空法师简单生活
+		大法师的法师水电费时代峰峻和安静的反函数就是h
+		爱的方式就是看大佛我爱上覅偶撒的谎覅偶石佛</p>
+		<p>大丰收沙发</p>
+		<p>大师傅沙发sad第三方回复</p>
+		<p>歌混合闪电发货还是</p>
+		<p>大师傅沙发小县城都</p>
+		<p>第三方池昌旭重大额</p>
+		<p>啊哦好几个的金顶佛光</p>
+		<p>是梵蒂冈继续吃吧现场</p>
+		</div>
+</div>
+</head>
+<body>
+
+</body>
+</html>
