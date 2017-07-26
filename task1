@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> 百度前端作业 </title>
+<style>
+  *{margin:0;padding:0;}
+  .page{background-color:#ccc;width:80%;margin:auto;}
+  body{background-color:black;}
+  .head{background-color:	#3C3C3C;height:70px;color:white;}
+  li,a{text-decoration:none;}
+  .head li{float:left ;margin:0 20px;}
+  .head ul{float:right;margin:-30px 10px 0 0;list-style:none;}
+  .main,.mainf,.pic,.maintable,.mainform{background-color:white;margin:10px;}
+  .footer{color:white;text-align:center;height:52px;line-height:40px;font-weight:bold;}
+  img{width:100%;height:100%;}
+  .mainf img,.main img{width:30%;}
+  .two{font-size:20px;color:#6C6C6C;font-weight:bold;}
+
+  .spic{border:2px solid #ccc;width:15%;margin:15px 30px;text-align:center;}
+
+  form{padding:30px 400px;line-height:2em;}
+  form p span{display:inline-block;text-align:right;}
+  table{width:100%;padding-bottom:30px;}
+
+  .mainf p:nth-child(3),.maintable p{font-size:14px;color:#3C3C3C;line-height:1.5em;}
+
+  input[type="submit"]{dispaly:block;width:90%;background-color:#0066CC;color:white;font-size:1.5em;}
+</style>
+</head>
+<body>
+<div class="page">
+	  <div class="head"> 
+	  <h1>网站一级标题</h1>
+	  <ul>
+		  <li><a href="#">导航链接1</a></li>
+		  <li><a href="#">导航链接2</a></li>
+		  <li><a href="#">导航链接3</a></li>
+		  <li><a href="#">导航链接4</a></li>
+	  </ul>
+	  </div>
+	  <div class=mainf>
+	  <h2>文章一级标题</h2>
+	  <h2 class="two">文章二级标题</h2> 
+	  <p>文章作者 文章发表时间</p>
+	  <br/>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，换行。</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，<strong>！！这里粗体！！</strong>这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p><a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  </div>
+	  <div class="main">
+	  <h2>另一篇文章一级标题</h2>
+	  <h2 class="two">文章二级标题</h2>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，换行。</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，<strong>！！这里粗体！！</strong>这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  <ul>
+		<li>列表标题一</li>
+		<li>列表标题二</li>
+		<li>列表标题三</li>
+	  </ul>
+	  </div>
+	  <div class="pic">
+	  <h2>图片</h2>
+	  <div class="spic">
+	  <span>好看的图片</span><br/>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  </div>
+	  <div class="spic">
+	  <span>好看的图片</span><br/>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  </div>
+	  <div class="spic">
+	  <span>好看的图片</span><br/>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  </div>
+	  <div class="spic">
+	  <span>好看的图片</span><br/>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  </div></div>
+	  <div class="maintable">
+	  <h2>最后一篇文章一级标题</h2>
+	  <h2 class="two">文章二级标题</h2>
+	  <p>文章作者 文章发表时间</p>
+	  <ol style="padding: 15px 50px">
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	  </ol>
+	  <p>下面是一个表格，给表格加了一个border="1"号让你看出是一个表格</p>
+	  <table border="1px" >
+		<tr style="background-color:black;color:white;"> <!--表格第一行-->
+			<td >表头</td>
+			<td>表头</td>
+			<td>表头</td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr style="background-color:#ccc">
+			<td>总计</td>
+			<td colspan=2>1000</td>
+		</tr>
+		
+	  </table>
+	  </div>
+	  <div class="mainform">
+	  <h2>这里以后是一个侧栏，这是侧栏标题</h2>
+	  
+	  <form>
+		<span>请输入邮箱地址：</span><input type="text" value="这是一个文本输入框"/>
+		<br/>
+		<span>邮箱地址请按要求格式输入</span>
+		<br/>
+		<span>请输入密码：</span><input type="password" /><br/>
+		<span>请重复输入密码：</span><input type="password" /><br/>
+		<span>密码请为6-16位英文数字</span><br/><br/>
+		<span>性别：</span><input type="radio" checked="checked" name="gender"/>男
+		<input type="radio" name="gender"/>女 <br/>
+		<span>城市：</span><select>
+					<option value="北京">北京</option>
+					<option value="上海">上海</option>
+					<option value="四川">四川</option>
+			  </select><br/>
+		<span>爱好：</span>
+		<input type="checkbox"/>运动
+		<input type="checkbox"/>艺术
+		<input type="checkbox"/>科学
+			<br/>
+			<span>个人简介：</span>
+		<textarea cols="20" rows="5">这是一个多行输入框，输入您的个人描述</textarea>
+		<br/>
+		<input type="submit" >
+	  </form>  
+	  </div>
+	  <div class="footer">
+	  <p>版权所有©</p>
+	  </div>
+  </div>
+ </body>
+</html>
