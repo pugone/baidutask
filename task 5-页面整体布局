@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> 百度前端作业 </title>
+<style>
+*{margin:0;padding:0;}
+.main{overflow:auto;}
+
+/*顶部设置*/
+.head{height:100px;background-color:#272727;}
+.head ul{list-style:none;float:right;line-height:100px;}
+.head li{float:left;color:white;padding:0 5px;}
+li,a{text-decoration:none;}
+
+/*主要内容布局*/
+body{background-color:#ccc;}
+.right,.left1,.left2,.left3,.left4{border:1px solid #ccc;background-color:white;margin:1.5em;padding:1.5em;}
+.left{;margin-right:580px;}
+.right{width:480px;position:absolute;top:100px;right:0;}
+ 
+/*主要内容文本*/
+p{text-indent:2em;}
+h3,.author{color:#ccc;line-height:2em;}
+.author{font-size:14px;}
+
+/*主要内容里的小图*/
+.spic{float:left;width:100px;border:1px solid #ccc;padding:10px;margin:20px;text-align:center;}
+.left3{overflow:hidden;}
+.left .spic img{width:100%;}
+
+/*表格*/
+table{width:100%;}
+
+/*大图属性*/
+.left img{width:40%;}
+.left1 img,.left2 img{padding:20px 0;}
+
+/*右边的输入框*/
+.top h2{border-left:3px solid #ccc;padding-left:10px;}
+form{line-height:30px;}
+.right span{display:block;width:150px;;float:left;text-align:right;}
+.right p{font-size:0.8em;color:#ccc;text-indent:12em;}
+.text-input{padding:7px 10px;margin:5px 2px;}
+.mailpass{height:40px;line-height:40px;}
+.right-mess{line-height:3em;}
+.text-area{padding:10px 5px;position:relative;bottom:-10px;}
+input[type="submit"]{width:100%;background-color:rgba(51,122, 183, 30);padding:5px 0;color:white;font-size:1em;letter-spacing:1em;text-align:center;}
+/*底部*/
+.footer{background-color:black;text-align:center;color:white;height:50px;line-height:50px;clear:both;}
+
+</style>
+</head>
+<body>
+<div class="head"> 
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\light.png" style="margin:10px 100px"/>
+	  <ul>
+		  <li><a href="#">导航链接1</a></li>
+		  <li><a href="#">导航链接2</a></li>
+		  <li><a href="#">导航链接3</a></li>
+		  <li><a href="#">导航链接4</a></li>
+	  </ul>
+</div>
+<div class="main">
+	<div class="left">	  
+	  <div class="left1">
+	  <h2>文章一级标题</h2>
+	  <h3>文章二级标题</h3> 
+	  <span class="author">文章作者 文章发表时间</span>
+	  <br/>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，换行。</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，<strong>！！这里粗体！！</strong>这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p><a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  </div>
+	  <div class="left2">
+	  <h2>另一篇文章一级标题</h2>
+	  <h3>文章二级标题</h3>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <p>换行了</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+	  这是一个很长很长的段落，换行。</p>
+	  <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，<strong>！！这里粗体！！</strong>这是一个很长很长的段落，
+	  这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行。</p>
+	  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png" />
+	  <ul style="list-style:none">
+		<li>列表标题一</li>
+		<li>列表标题二</li>
+		<li>列表标题三</li>
+	  </ul>
+	  </div>
+	  <div class="left3">
+		  <h2>图片</h2>
+		  <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+		  <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+		  <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+		  <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+		   <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+		   <div class="spic">
+			  <span>好看的图片</span><br/>
+			  <img src="C:\Users\wang\Pictures\Saved Pictures\QQ截图20170626235945.png"/>
+		  </div>
+	  </div>
+	  <div class="left4">
+		  <h2>最后一篇文章一级标题</h2>
+		  <h3>文章二级标题</h3>
+		  <span class="author">文章作者 文章发表时间</span>
+		  <ol style="padding: 15px 50px">
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		  </ol>
+		  <span>下面是一个表格，给表格加了一个border="1"号让你看出是一个表格</span>
+		  <table border="1px" >
+			<tr style="background-color:black;color:white;"> 
+				<td>表头</td>
+				<td>表头</td>
+				<td>表头</td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr style="background-color:#ccc">
+				<td>总计</td>
+				<td colspan=2>1000</td>
+			</tr>
+		  </table>
+	  </div>
+</div>
+	  <div class="right">
+		  <div class="top"><h2>这里以后是一个侧栏，这是侧栏标题</h2></div>		  
+		  <form>
+			<div class="right-text">
+				 <span class="mailpass" required>邮箱地址：</span><input class="text-input"  type="text" placeholder="请输入邮箱地址"/>
+				 <br/>
+				 <p>邮箱地址请按要求格式输入</p>
+				 <span class="mailpass">密码：</span><input class="text-input"  type="password" placeholder="请输入密码"/><br/>
+				 <span class="mailpass">确认密码：</span><input class="text-input" type="password" placeholder="请再次输入密码"/><br/>
+				 <p>密码请为6-16位英文数字</p><br/>
+			</div>
+			<div class="right-mess">
+				<span>性别：</span><input type="radio" checked="checked" name="gender"/>男
+									<input type="radio" name="gender"/>女 <br/>
+				<span>城市：</span><select>
+							<option value="北京">北京</option>
+							<option value="上海">上海</option>
+							<option value="四川">四川</option>
+					  </select><br/>
+				<span>爱好：</span>
+				<input type="checkbox"/>运动
+				<input type="checkbox"/>艺术
+				<input type="checkbox"/>科学
+					<br/>
+					<span>个人简介：</span>
+				<textarea cols="30" rows="10" class="text-area" placeholder="输入您的个人描述"></textarea>
+				<br/>
+				<input type="submit" >
+			</div>
+		  </form>  
+	  </div>
+</div>
+  <div class="footer"/>
+	  <p>版权所有©</p>
+  </div>
+  
+ </body>
+</html>
