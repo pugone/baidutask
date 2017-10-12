@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .wrap{
+            width: 400px;
+            height: 500px;
+            background-color: #cc9b9a;
+            margin: 20px auto;
+        }
+        .btndes {
+            /*position: absolute;*/
+            top:30px;
+            margin: 0 auto;
+            /*background-color: darkseagreen;*/
+            text-align: center;
+            font-size: 14px;
+        }
+        #content {
+            width: 400px;
+            height:400px;
+            /*background-color: gainsboro;*/
+            position: relative;
+        }
+        #cont_btn1,#cont_btn2{
+            height: inherit;
+            width: 50px;
+            position: absolute;
+            top: 0px;
+            line-height: 320px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        #cont_btn2 {
+            right: 0;
+        }
+        #content a{
+            text-decoration: none;
+            color: olivedrab;
+            opacity: 0.4;
+            text-align: center;
+        }
+        #content a:hover{
+            color: cadetblue;
+            opacity: 0.9;
+        }
+        #span1{
+            position: absolute;
+            top:0;
+            height: 30px;
+            width: inherit;
+            text-align: center;
+            line-height: 30px;
+        }
+        #span2 {
+            position: absolute;
+            height:30px;
+            line-height: 30px;
+            width: inherit;
+            text-align: center;
+            bottom: 0;
+        }
+        img {
+            width: 400px;
+            margin-top: 30px ;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var btn1 = document.getElementById("btn1");
+            var btn2 = document.getElementById("btn2");
+            var textdes = document.getElementById("textdes");
+            var cont_btn1 = document.getElementById("cont_btn1");
+            var cont_btn2 = document.getElementById("cont_btn2");
+            var span1 = document.getElementById("span1");
+            var span2 = document.getElementById("span2");
+            var img = document.getElementById("img");
+            var imgarr = ['img/img1.jpg','img/img2.jpg','img/img3.jpg','img/img4.jpg'];
+            var imgdesarr = ["gakki1","gakki2","gakki3","gakki4"];
+            /* cont_btn2.onclick=function () {
+             img.src=imgarr[3];
+             }*/
+            num=0;
+            function picTab() {
+                img.src= imgarr[num];
+                span1.innerHTML = num+1+'/'+imgdesarr.length;
+                span2.innerHTML = imgdesarr[num];
+            }
+            picTab();
+            function Tab1() {
+                var num = 0;
+                function picTab() {
+                    img.src= imgarr[num];
+                    span1.innerHTML = num+1+'/'+imgdesarr.length;
+                    span2.innerHTML = imgdesarr[num];
+                }
+                cont_btn2.onclick=function () {
+                    num++;
+                    if(num==imgarr.length){
+                        num = 0;
+                    }
+                    picTab();
+                }
+                cont_btn1.onclick=function () {
+                    num--;
+                    if(num==-1){
+                        num = imgarr.length-1;
+                    }
+                    picTab();
+                }
+            }
+            Tab1();
+            function Tab2() {
+                var num = 0;
+                function picTab() {
+                    img.src= imgarr[num];
+                    span1.innerHTML = num+1+'/'+imgdesarr.length;
+                    span2.innerHTML = imgdesarr[num];
+                }
+                cont_btn2.onclick=function () {
+                    num++;
+                    if(num==imgarr.length){
+                        alert('后面没有图片啦！');
+                        num = imgarr.length-1;
+                    }
+                    picTab();
+                }
+                cont_btn1.onclick=function () {
+                    num--;
+                    if(num==-1){
+                        alert(' 前面没有图片啦！');
+                        num = 0;
+                    }
+                    picTab();
+                }
+            }
+            btn1.onclick=function () {
+                textdes.innerHTML='循环切换模式';
+                Tab1();
+            }
+            btn2.onclick=function () {
+                textdes.innerHTML='顺序切换模式'
+                Tab2();
+            }
+        }
+    </script>
+
+</head>
+<body>
+<div class="wrap">
+    <div class="btndes">
+        <button id="btn1">循环切换</button>
+        <button id="btn2">顺序切换</button>
+        <p id="textdes">循环切换模式</p>
+    </div>
+    <div id="content">
+        <a href="#" id="cont_btn1">&lt</a>
+        <a href="#" id="cont_btn2">&gt</a>
+        <span id = span1>loading...</span>
+        <span id = span2>loading...</span>
+        <img id="img" src="img/img1.jpg" />
+    </div>
+</div>
+</body>
+</html>
